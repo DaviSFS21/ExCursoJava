@@ -20,7 +20,7 @@ public class Aprovados {
         double[] Score2 = new double[quant];
 
         for (int i = 0; i < quant; i++) {
-            System.out.printf("%nType the %dº people: %n",(i + 1));
+            System.out.printf("%nType the %d people: %n",(i + 1));
             System.out.print("Name: ");
             sc.nextLine();
             Name[i] = sc.nextLine();
